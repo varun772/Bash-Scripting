@@ -1,0 +1,3 @@
+
+grep -r -w "$1"|cut -d':' -f1|sort -r|sort -u|sort -r
+
